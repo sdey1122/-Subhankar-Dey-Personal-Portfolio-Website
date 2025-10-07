@@ -74,8 +74,7 @@ Key design choices:
 
 ## 🧩 Future Enhancements
 - Add **Next.js version** for SSR and SEO benefits.  
-- Integrate a **light/dark mode switch**.  
-- Implement **Email confirmation** using EmailJS templates.  
+- Integrate a **light/dark mode switch**.   
 - Add a **blog section** powered by Markdown or Headless CMS (e.g., Contentful).  
 - Deploy on **Vercel** for faster load and global CDN caching.
 
