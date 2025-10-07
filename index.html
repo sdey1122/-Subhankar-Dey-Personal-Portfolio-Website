@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Subhankar.Dev</title>
+
+    <!-- Fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!-- SwiperJS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "rF8TXPlONk9XbtFtC",
+        });
+      })();
+    </script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <div id="stars4"></div>
+    <div id="stars5"></div>
+    <!-- Header Section -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container align-items-center">
+          <a class="navbar-brand" href="index.html" id="logo">
+            <span class="logo-part">S</span>
+            <span class="logo-part">u</span>
+            <span class="logo-part">b</span>
+            <span class="logo-part">h</span>
+            <span class="logo-part">a</span>
+            <span class="logo-part">n</span>
+            <span class="logo-part">k</span>
+            <span class="logo-part">a</span>
+            <span class="logo-part">r</span>
+            <span class="dot">.</span>
+            <span class="logo-dev">D</span>
+            <span class="logo-dev">e</span>
+            <span class="logo-dev">v</span>
+          </a>
+          <a
+            href="#contact"
+            class="hire-btn rounded-pill order-lg-3 ms-auto d-none d-lg-inline-block"
+          >
+            <span>Hire Me</span>
+          </a>
+          <button
+            class="navbar-toggler ms-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu"
+            aria-controls="navMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse order-lg-2" id="navMenu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item d-lg-none mt-3 w-100">
+                <div class="d-flex justify-content-center">
+                  <a href="#contact" class="hire-btn rounded-pill">
+                    <span>Hire Me</span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <main>
+      <section class="banner-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 text-center">
+              <div class="avatar-wrap mx-auto mb-4">
+                <img
+                  src="./assets/images/my_port_1.png"
+                  alt="Subhankar-Dey"
+                  class="avatar-img"
+                />
+              </div>
+              <h1 class="banner-title">
+                Hello, I'm
+                <a href="#about" class="banner-name">Subhankar Dey</a>,
+                <span class="role-line">Front-end Developer</span>
+              </h1>
+              <p class="banner-bio mx-auto text-center">
+                I'm a passionate Front-End Web Developer who builds modern,
+                responsive, and visually engaging web interfaces. I bring
+                designs to life using HTML, CSS, Bootstrap, JavaScript, and
+                jQuery, crafting dynamic and interactive experiences. My code is
+                clean, modular, and efficient, blending creativity with
+                performance to deliver seamless digital solutions.
+              </p>
+              <div class="social-links d-flex justify-content-center">
+                <ul
+                  class="social-links tooltipped justify-content-center align-items-center"
+                >
+                  <li class="icon-content">
+                    <a
+                      href="https://instagram.com/yourusername"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="Instagram"
+                      class="social-link ig"
+                    >
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <div class="tooltip">Instagram</div>
+                  </li>
+
+                  <li class="icon-content">
+                    <a
+                      href="https://github.com/sdey1122"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="GitHub"
+                      class="social-link gh"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                    <div class="tooltip">GitHub</div>
+                  </li>
+
+                  <li class="icon-content">
+                    <a
+                      href="https://www.linkedin.com/in/subhankar-dey-154051189/"
+                      target="_blank"
+                      rel="noopener"
+                      aria-label="LinkedIn"
+                      class="social-link li"
+                    >
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <div class="tooltip">LinkedIn</div>
+                  </li>
+
+                  <li class="icon-content">
+                    <a
+                      href="#contact"
+                      aria-label="Email"
+                      class="social-link mail"
+                    >
+                      <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <div class="tooltip">Email</div>
+                  </li>
+                  <li class="icon-content">
+                    <a
+                      href="./assets/resume/resume-sdey.pdf"
+                      download="Subhankar_Dey_Resume.pdf"
+                      aria-label="Download Resume"
+                      class="social-link cv"
+                    >
+                      <i class="fa-solid fa-file-arrow-down"></i>
+                    </a>
+                    <div class="tooltip">Download Resume</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-down mt-5 text-center">
+          <a href="#about" class="scroll-btn" aria-label="Scroll to About">
+            <i class="fa-solid fa-angle-down"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section py-5">
+        <div class="container">
+          <h2 class="section-title text-center mb-5">About Me</h2>
+          <h3 class="section-title text-center mb-5">
+            Education & Work Experience
+          </h3>
+
+          <div class="timeline mx-auto">
+            <div class="timeline-item reveal">
+              <div class="timeline-icon">
+                <i class="fa-solid fa-certificate"></i>
+              </div>
+              <div class="timeline-content">
+                <span class="badge rounded-pill time-badge"
+                  >2025 - Present</span
+                >
+                <h4 class="item-title">Internship and Skill Up Training</h4>
+                <p class="item-sub">Institute: Webskitters Academy</p>
+                <p
+                  class="item-text typed"
+                  data-typed="Acquired hands-on expertise in front-end development using HTML, CSS, Bootstrap, JavaScript, and jQuery, with a focus on crafting interactive and polished web interfaces. "
+                ></p>
+              </div>
+            </div>
+            <div class="timeline-item reveal">
+              <div class="timeline-icon">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <div class="timeline-content">
+                <span class="badge rounded-pill time-badge">2024 - 2025</span>
+                <h4 class="item-title">Junior Engineer</h4>
+                <p class="item-sub">Company: Fliqa Reality Private Limited</p>
+                <p
+                  class="item-text typed"
+                  data-typed="Building production-grade interfaces using HTML, CSS and Javascript, focusing on performance, accessibility, and clean, scalable UI architecture."
+                ></p>
+              </div>
+            </div>
+            <div class="timeline-item reveal">
+              <div class="timeline-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div class="timeline-content">
+                <span class="badge rounded-pill time-badge">2023 - 2024</span>
+                <h4 class="item-title">Industrial Training</h4>
+                <p class="item-sub">Company: DCT</p>
+                <p
+                  class="item-text typed"
+                  data-typed="Gained practical experience in designing webpage layouts, creating wireframes, and developing structured, responsive front-end interfaces using modern web technologies."
+                ></p>
+              </div>
+            </div>
+            <div class="timeline-item reveal">
+              <div class="timeline-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <div class="timeline-content">
+                <span class="badge rounded-pill time-badge">2020 — 2022</span>
+                <h4 class="item-title">Information Technology (IT)</h4>
+                <p class="item-sub">
+                  University: West Bengal University of Technology -
+                  (WBUT/MAKAUT)
+                </p>
+                <p class="item-sub">CGPA: 9.14</p>
+                <p
+                  class="item-text typed"
+                  data-typed="Specialized in modern web systems, front-end architecture, and usability engineering."
+                ></p>
+              </div>
+            </div>
+          </div>
+          <div class="skills container">
+            <h2 class="section-title text-center mb-5">Skills</h2>
+            <div class="skills-row">
+              <div class="skill-card html5">
+                <i class="fa-brands fa-html5" aria-hidden="true"></i>
+                <span>HTML5</span>
+              </div>
+
+              <div class="skill-card css3">
+                <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+                <span>CSS3</span>
+              </div>
+
+              <div class="skill-card bootstrap">
+                <i class="fa-brands fa-bootstrap" aria-hidden="true"></i>
+                <span>Bootstrap</span>
+              </div>
+
+              <div class="skill-card js">
+                <i class="fa-brands fa-square-js" aria-hidden="true"></i>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="skill-card jq">
+                <i class="fa-solid fa-code" aria-hidden="true"></i>
+                <span>jQuery</span>
+              </div>
+
+              <div class="skill-card github">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                <span>GitHub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-down sd-btn mt-5 text-center">
+          <a
+            href="#projects"
+            class="scroll-btn"
+            aria-label="Scroll to Projects"
+          >
+            <i class="fa-solid fa-angle-down"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- Project Section -->
+      <section id="projects" class="projects-section py-5">
+        <div class="container">
+          <h2 class="section-title text-center mb-5">Projects</h2>
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+          />
+          <div class="projects-swiper swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <div class="shot-wrap">
+                    <img
+                      src="./assets/images/Everetts-img.png"
+                      alt="Everetts - Find Your Perfect Loan"
+                    />
+                  </div>
+                  <div class="project-meta">
+                    <h3 class="project-title">
+                      Everetts – Find Your Perfect Loan
+                    </h3>
+                    <div class="project-actions">
+                      <a
+                        class="hire-btn rounded-pill"
+                        href="https://sdey1122.github.io/Everetts/"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <span>Live Demo</span>
+                      </a>
+                      <a
+                        class="hire-btn rounded-pill ghost"
+                        href="https://github.com/sdey1122/Everetts"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <span>GitHub</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <div class="shot-wrap">
+                    <img
+                      src="./assets/images/Cabinetmarkllc-img.png"
+                      alt="CabinetMark LLC"
+                    />
+                  </div>
+                  <div class="project-meta">
+                    <h3 class="project-title">CabinetMark LLC</h3>
+                    <div class="project-actions">
+                      <a
+                        class="hire-btn rounded-pill"
+                        href="https://sdey1122.github.io/CabinetMark-LLC/"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <span>Live Demo</span>
+                      </a>
+                      <a
+                        class="hire-btn rounded-pill ghost"
+                        href="https://github.com/sdey1122/CabinetMark-LLC"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <span>GitHub</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <div class="shot-wrap">
+                    <img
+                      src="./assets/images/Hillfamily-img.png"
+                      alt="Hill Family Medicine"
+                    />
+                  </div>
+                  <div class="project-meta">
+                    <h3 class="project-title">Hill Family Medicine</h3>
+                    <div class="project-actions">
+                      <a
+                        class="hire-btn rounded-pill"
+                        href="https://sdey1122.github.io/Hill-family/"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <span>Live Demo</span>
+                      </a>
+                      <a
+                        class="hire-btn rounded-pill ghost"
+                        href="https://github.com/sdey1122/Hill-family"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <span>GitHub</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-card">
+                  <div class="shot-wrap">
+                    <img
+                      src="./assets/images/Wikipediaclone-img.png"
+                      alt="Wikipedia Clone"
+                    />
+                  </div>
+                  <div class="project-meta">
+                    <h3 class="project-title">Wikipedia Clone</h3>
+                    <div class="project-actions">
+                      <a
+                        class="hire-btn rounded-pill"
+                        href="https://sdey1122.github.io/Wikipedia_clone/"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <span>Live Demo</span>
+                      </a>
+                      <a
+                        class="hire-btn rounded-pill ghost"
+                        href="https://github.com/sdey1122/Wikipedia_clone"
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <span>GitHub</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proj-btn prev" aria-label="Previous">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="proj-btn next" aria-label="Next">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section py-5">
+        <div class="container contact-container">
+          <div class="contact-flex">
+            <div class="contact-copy">
+              <h2 class="eyebrow">Contact Me</h2>
+              <h3 class="headline">Let's Connect & Discuss Opportunities!</h3>
+              <p class="lede">
+                I'm open to freelance, full-time roles, or collaborations. Send
+                a message—I'll reply quickly.
+              </p>
+
+              <ul class="contact-lines">
+                <li>
+                  <span class="icon"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></span>
+                  <span class="k">Email</span><span class="sep">:</span>
+                  <a href="mailto:sdey1122@gmail.com" class="v"
+                    >subhankardey1122@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <span class="icon"
+                    ><i class="fa-solid fa-location-dot"></i
+                  ></span>
+                  <span class="k">Address</span><span class="sep">:</span>
+                  <span class="v">Kolkata, India</span>
+                </li>
+              </ul>
+            </div>
+            <form class="contact-form" id="contactForm" novalidate>
+              <label class="field-label" for="cEmail">*Your Email</label>
+              <div class="input-container">
+                <input
+                  id="cEmail"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+              <small class="err" id="emailErr"></small>
+              <label class="field-label mt-3" for="cMsg">*Message</label>
+              <div class="input-container textarea">
+                <textarea
+                  id="cMsg"
+                  name="message"
+                  placeholder="Your text here…"
+                  required
+                ></textarea>
+              </div>
+              <small class="err" id="msgErr"></small>
+              <div class="contact-actions">
+                <button
+                  id="sendBtn"
+                  type="submit"
+                  class="hire-btn rounded-pill"
+                >
+                  <span>Submit</span>
+                </button>
+                <button type="reset" class="hire-btn rounded-pill ghost">
+                  <span>Reset</span>
+                </button>
+              </div>
+              <p class="form-note" id="formNote" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <h3 class="footer-name">Subhankar Dey</h3>
+
+        <nav class="footer-nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+        </nav>
+        <ul
+          class="social-links tooltipped justify-content-center align-items-center footer-social-row"
+        >
+          <li class="icon-content">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              class="social-link ig"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <div class="tooltip">Instagram</div>
+          </li>
+
+          <li class="icon-content">
+            <a
+              href="https://www.linkedin.com/in/subhankar-dey-154051189/"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+              class="social-link li"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <div class="tooltip">LinkedIn</div>
+          </li>
+
+          <li class="icon-content">
+            <a
+              href="https://github.com/sdey1122"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+              class="social-link gh"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <div class="tooltip">GitHub</div>
+          </li>
+
+          <li class="icon-content">
+            <a
+              href="mailto:yourmail@example.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Email"
+              class="social-link mail"
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <div class="tooltip">Email</div>
+          </li>
+        </ul>
+
+        <p class="copyright">
+          &copy; <a href="#about">Subhankar.</a> All rights reserved
+        </p>
+      </div>
+      <button class="to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </footer>
+
+    <!-- GASP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
